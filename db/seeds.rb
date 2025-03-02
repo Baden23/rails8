@@ -12,7 +12,6 @@
 
 # Check if the user already exists by email
 User.find_or_create_by!(email_address: 'admin@ok.com') do |user| 
-  user.password = 'Pennywong89'
-  user.password_confirmation = 'Pennywong89'
+  
 
 end 
